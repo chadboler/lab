@@ -23,14 +23,12 @@ h1 {
 }
 
 #slider {
-  position: relative;
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px;
 }
 
 #slider ul {
-  position: relative;
   margin: 0;
   padding: 0;
   height: 500px;
@@ -38,7 +36,6 @@ h1 {
 }
 
 #slider ul li {
-  position: relative;
   display: block;
   float: left;
   margin: 0;
@@ -100,26 +97,21 @@ a.control_next {
 <body>
 <h1></h1>
 <div id="slider">
-  <a href="#" class="control_next">></a>
-  <a href="#" class="control_prev"><</a>
+  <a href="#" class="control_next"></a>
+  <a href="#" class="control_prev"></a>
   <ul>
     <li>SLIDE 1</li>
     <li style="background: #aaa;">SLIDE 2</li>
     <li style="background: #000;">SLIDE 3</li>
   </ul>  
 </div>
-<div class="slider_option">
-  <input type="checkbox" id="checkbox">
-  <label for="checkbox">Autoplay Slider</label>
-</div>
+
 
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 
   <script src="js/index.js"></script>
-  
-  <script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
-<script type="text/javascript" src="js/startstop-slider.js"></script>
+ 
 
 </body>
 
